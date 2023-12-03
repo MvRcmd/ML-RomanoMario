@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ML-MarioRomano</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="tope">
+            <div class="logoybuscador">
+                <figure class="logo">
+                    <img src="images/logo-mercado-liebre.svg">
+                </figure>
+
+                <form action="#" method="post" target="_blank" class="searchbar">
+                    <p>
+                        <input type="search" name="busquedaproducto" placeholder="Buscar...">
+                        <button class="search-button">
+                            <i class="fa fa-search search-icon"></i>
+                        </button>
+                    </p>
+                </form>
+            </div>
+
+            <p id="cuotas"><i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas
+            </p>
+
+        </div>
+
+        <nav class="navbar">
+            <div class="oferta">
+                <ul>
+                    <li> <a href="">Ofertas</a></li>
+                    <li><a href="">Tiendas oficiales</a></li>
+                    <li><a href="">Vender</a></li>
+                    <li><a href="">Ayuda</a></li>
+                </ul>
+            </div>
+
+            <div class="login">
+                <ul>
+                    <li> <a href="/register">Crea tu cuenta </a><i class="fa-regular fa-id-card"></i></li>
+                    <li> <a href="/login">Ingresá </a><i class="fa-solid fa-right-to-bracket"></i></li>
+                    <li> <a href="">Mis compras </a> <i class="fa-solid fa-basket-shopping"></i></li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <div class="burger-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+
+    </header>
+
+    <main class="formregis">
+        <form action="/login" method="POST">
+            <label for="username">Usuario:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Iniciar</button>
+        </form>
+    </main>
+    
+    <footer>
+        <div class="footerprincipal">
+            <div class="pagotarjeta">
+                <i class="fa-solid fa-credit-card"></i>
+                <b>Pagá con tarjeta</b>
+            </div>
+
+            <div class="enviogratis">
+                <i class="fa-solid fa-gift"></i>
+                <b>Envío gratis a partir de $ 5.000</b>
+            </div>
+
+            <div class="seguro">
+                <i class="fa-solid fa-user-shield"></i>
+                <b>Seguridad garantizada</b>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+</html>

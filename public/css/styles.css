@@ -1,0 +1,333 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #d8d33c;
+    font-family: 'Calibri';
+}
+
+img {
+    width: 100%;
+}
+
+.logo {
+    width: 50%;
+    padding: 10px;
+}
+
+
+#titulares {
+    font-size: 23px;
+}
+
+#precios {
+    font-size: 18px;
+}
+
+#descuentos {
+    font-size: 20px;
+    color: #b53939;
+}
+
+#descripciones {
+    font-size: 16px;
+}
+
+#cuotas {
+    text-align: center;
+}
+
+footer {
+    background-color: #d8d33c;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+footer i {
+    color: rgb(0, 89, 161);
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.footerprincipal {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 25px;
+}
+
+.pagotarjeta{
+    display: flex;
+    flex-direction: column;
+} 
+.enviogratis{
+    display: flex;
+    flex-direction: column;
+}
+.seguro {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    width: 90%;
+    background-color: lightgray;
+    margin: auto;
+    padding: 25px; 
+}
+
+article.producto {
+    margin: 10px;
+    background-color: white;
+}
+
+article i {
+    color: #39b54a;
+    border-radius: 8px;
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    padding: 5px;
+    right: 20px;
+    top: -15px;
+
+}
+
+
+.electrodomesticos {
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+}
+
+.nombreprodu {
+    display: none;
+}
+
+.navbar {
+    display: none;
+}
+
+.burger-menu {
+    text-align: center;
+}
+
+.preciototal {
+    display: flex;
+
+}
+
+#precios {
+    width: 30%;
+}
+
+#descuentos {
+    width: 70%;
+}
+
+.logoybuscador {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.searchbar {
+    width: 50%;
+    align-items: center;
+}
+
+
+.formregis p {
+    font-weight: bold;
+}
+
+.formregis {
+    max-width: 800px;
+    margin: 120px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"],
+button[type="reset"] {
+    background-color: blue;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+button[type="reset"]:hover {
+    background-color: #0022AA;
+}
+
+.error-message {
+    color: #ff0000;
+    margin-top: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+li a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+input[type="file"] {
+    margin-top: 8px;
+}
+
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+button[type="submit"] {
+    background-color: blue;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button[type="submit"]:hover {
+background-color: #0022AA;
+}
+
+
+
+@media (min-width: 361px) {
+
+.nombreprodu {
+    display: unset;
+}
+
+    article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .burger-menu {
+        display: none;
+
+    }
+
+    .navbar {
+        display: unset;
+    }
+
+    .ultimavisita {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .producto {
+        width: calc(50% - 25px);
+        margin-right: 10px;
+    }
+
+    .tope {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    .logoybuscador {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .oferta {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+    }
+
+    .login {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    ul {
+        display: flex;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    ul li {
+        margin: 15px;
+    }
+
+}
+
+@media (min-width: 769px) {
+    .ultimavisita {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .producto {
+        width: calc(25% - 25px);
+        margin-right: 10px;
+    }
+
+
+    .logo {
+        width: 30%;
+    }
+
+
+
+}
